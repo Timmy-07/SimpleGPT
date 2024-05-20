@@ -13,3 +13,6 @@ response = client.send_message("Hello, how are you?")
 print(f"Response: {response}")
 
 ------
+Code only remebers last 4 coversation pairs to limit amount of input tokens needed
+
+Made to simplify the work needed to use chatgpt's api, i hope this helps anyone who is stuggling with the api documentation
