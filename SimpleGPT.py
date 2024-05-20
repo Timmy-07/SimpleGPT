@@ -1,4 +1,4 @@
-import requests, os, time, json
+import requests, json
 
 class SiCl:
     def __init__(self, api_key, model="gpt-3.5"):
