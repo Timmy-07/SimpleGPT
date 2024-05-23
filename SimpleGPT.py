@@ -42,4 +42,4 @@ class SiCl:
             self.save_conversation_history
             return assistant_message
         else:
-            return f"Request failed with status code {response.status_code}: {response.text}"
+            return f"The request failed with status code {response.status_code}: {response.text}"
